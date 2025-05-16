@@ -13,29 +13,30 @@
     <div class="container">
       <h1 class="display-5">Temario del Curso</h1>
       <p class="lead">Explorá los temas fundamentales para convertirte en desarrollador web</p>
-    </header>
-  </div>
-
-  <navbar class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-      <a class="navbar-brand" href="#">Guía Web</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-          <li class="nav-item"><a class="nav-link active" href="temario.tml">Temario</a></li>
-        </ul>
-        <li class="nav-item"><a class="nav-link" href="evaluacion.html">Evaluación</a></li>
-      </div>
     </div>
-  </navbar>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Guía Web</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link active" href="temario.tml">Temario</a></li>
+            <li class="nav-item"><a class="nav-link" href="evaluacion.html">Evaluación</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
 
   <main class="cotainer my-5">
-    <article class="bg-white shadow rounded p-4">
-      <section class="mb-5">
+    <section class="bg-white shadow rounded p-4">
+      <article class="mb-5">
         <h2>Contenido de la Guía</h2>
+      </article>
         <div class="accordion" id="temarioAccordion">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingHTML">
@@ -85,18 +86,16 @@
               </p>
             </div>
           </div>
-        </section>
-      </div>
-
-      <section class="text-center">
-        <a href="evaluasion.html" class="btn btn-success mt-4">Ir a la Evaluación</a>
+        </div>
+      <article class="text-center">
+        <a href="evaluacion.html" class="btn btn-success mt-4">Ir a la Evaluación</a>
       </article>
     </section>
   </main>
 
   <footer class="bg-light text-center py-3">
     <p class="mb-0">&copy; 2025 Guía del Estudiante - Todos los derechos reservados</p>
-  </futer>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
 </body>
